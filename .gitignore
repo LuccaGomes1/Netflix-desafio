@@ -1,0 +1,13 @@
+# Artefatos de build
+/build/
+/dist/
+
+# Dependências
+/node_modules/
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos de OS
+.DS_Store
+Thumbs.db
