@@ -1,0 +1,36 @@
+body{
+    background-image: url('../assents/images/2a07851f4ee1d287a6780f57aaa3a225902fdc4d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;  
+    background-color: rgba(0, 255, 255, 0);
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.item {
+    height: 50px;
+    color: white;
+    font-family: open-sans;
+    font-size: 60;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.item-1{
+    flex-grow: 0.9;
+}
+
+
+@font-face {
+    font-family: open-sans;
+    src: url('/assents/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
