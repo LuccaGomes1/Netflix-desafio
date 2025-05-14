@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 
-.container {
+.container{
     display: flex;  
     background-color: rgba(0, 255, 255, 0);
     height: 100px;
@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
 }
 
-.item {
+.item{
     height: 50px;
     color: white;
     font-family: open-sans;
@@ -53,47 +53,32 @@ body{
     font-family: open-sans;
     color: white;
     border-radius: 7px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #wish-dragon{
     background-image: url('../assents/images/wish-dragon.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
 }
 
 #loki{
     background-image: url('../assents/images/loki.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
 }
 
 #shang-chi{
     background-image: url('../assents/images/shang-chi.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
 }
 
 #spider-man{
     background-image: url('../assents/images/spider-man.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 #the-witcher{
     background-image: url('../assents/images/the-witcher.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
-@font-face {
+@font-face{
     font-family: open-sans;
     src: url('/assents/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
