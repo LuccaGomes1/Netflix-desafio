@@ -13,10 +13,7 @@ body{
     display: flex;  
     background-color: rgba(0, 255, 255, 0);
     height: 100px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    padding: 50px 50px 50px;
 
     justify-content: space-between;
 }
@@ -57,6 +54,59 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.movie-info{
+    display: flex;
+    flex-direction: column;
+
+    height: 300px;
+    width: 430px;
+
+    position: absolute;
+    gap: 25px;
+
+    bottom: 0;
+    left: 30.2%;
+    transform: translate(-50%);
+    margin-bottom: 450px;
+    font-family: open-sans;
+
+}
+
+
+.movie-name{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.movie-desc{
+    font-size: 16px;
+    color: white;
+}
+
+
+#button{
+    position: absolute;
+    bottom: 0;
+    left: 24.2%;
+    transform: translate(-50%);
+    margin-bottom: 480px;
+    width: 200px;
+
+    font-family: open-sans;
+    font-size: large;
+    color: black;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFA634;;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
 
 #wish-dragon{
     background-image: url('../assents/images/wish-dragon.jpg');
