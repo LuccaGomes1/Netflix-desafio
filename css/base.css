@@ -70,7 +70,6 @@ body{
     transform: translate(-50%);
     margin-bottom: 450px;
     font-family: open-sans;
-
 }
 
 
@@ -78,12 +77,12 @@ body{
     font-size: 45px;
     color: white;
     font-weight: 600;
-
 }
 
 .movie-desc{
-    font-size: 16px;
+    font-size: 17px;
     color: white;
+    font-weight: 500;
 }
 
 
@@ -126,6 +125,50 @@ body{
 
 #the-witcher{
     background-image: url('../assents/images/the-witcher.jpg');
+}
+
+.movie-sec-specs{
+    display: grid;
+    gap: 4px;
+    width: 125px;
+
+    margin-top: 109%;
+    margin-left: 7%;
+    font-family: open-sans;
+}
+
+
+
+.rating{
+    display: flex;
+    gap: 8px;
+}
+
+.stars{
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      border: none;
+      clip-path: polygon(
+        50% 0%,
+        61.8% 35.1%,
+        98.5% 35.1%,
+        68.2% 57.0%,
+        79.4% 91.0%,
+        50% 70.0%,
+        20.6% 91.0%,
+        31.8% 57.0%,
+        1.5% 35.1%,
+        38.2% 35.1%
+      );
+      background-color: #ffffff;
+      transition: background-color 0.2s;
+}
+
+.stars:hover{
+    transition: 0.1ms;
+    background-color: #FFA634;
+
 }
 
 @font-face{
