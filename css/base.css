@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assents/images/background.jpg');
+    background-image: url('../assents/images/background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@ body{
 }
 
 .movie{
+    cursor: pointer;
     margin: 5px;
     font-family: open-sans;
     color: white;
@@ -64,6 +65,19 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.movie:hover{
+    transform: scale(1.05);
+    filter: brightness(1);
+    box-shadow: 0 0 15px rgba(255, 161, 38, 0.6);
+    color: #18181800;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.movie:hover .movie-sec-specs{
+    opacity: 0;
 }
 
 .movie-info{
@@ -95,8 +109,7 @@ body{
 #button{
     position: absolute;
     bottom: 0;
-    left: 24.2%;
-    transform: translate(-50%);
+    left: 18.9%;
     margin-bottom: 480px;
     width: 200px;
     font-family: open-sans;
@@ -109,6 +122,13 @@ body{
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+    filter: brightness(1);
+    box-shadow: 0 0 15px rgba(255, 145, 0, 0.6);
 }
 
 
